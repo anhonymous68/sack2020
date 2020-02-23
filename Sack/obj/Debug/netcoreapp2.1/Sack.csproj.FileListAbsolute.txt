@@ -1,0 +1,14 @@
+C:\Users\hoang\source\repos\Sack\Sack\bin\Debug\netcoreapp2.1\Sack.deps.json
+C:\Users\hoang\source\repos\Sack\Sack\bin\Debug\netcoreapp2.1\Sack.runtimeconfig.json
+C:\Users\hoang\source\repos\Sack\Sack\bin\Debug\netcoreapp2.1\Sack.runtimeconfig.dev.json
+C:\Users\hoang\source\repos\Sack\Sack\bin\Debug\netcoreapp2.1\Sack.dll
+C:\Users\hoang\source\repos\Sack\Sack\obj\Debug\netcoreapp2.1\Sack.csprojAssemblyReference.cache
+C:\Users\hoang\source\repos\Sack\Sack\obj\Debug\netcoreapp2.1\Sack.csproj.CoreCompileInputs.cache
+C:\Users\hoang\source\repos\Sack\Sack\obj\Debug\netcoreapp2.1\Sack.RazorAssemblyInfo.cache
+C:\Users\hoang\source\repos\Sack\Sack\obj\Debug\netcoreapp2.1\Sack.RazorAssemblyInfo.cs
+C:\Users\hoang\source\repos\Sack\Sack\obj\Debug\netcoreapp2.1\Sack.AssemblyInfoInputs.cache
+C:\Users\hoang\source\repos\Sack\Sack\obj\Debug\netcoreapp2.1\Sack.AssemblyInfo.cs
+C:\Users\hoang\source\repos\Sack\Sack\obj\Debug\netcoreapp2.1\Sack.RazorTargetAssemblyInfo.cache
+C:\Users\hoang\source\repos\Sack\Sack\bin\Debug\netcoreapp2.1\Sack.pdb
+C:\Users\hoang\source\repos\Sack\Sack\obj\Debug\netcoreapp2.1\Sack.dll
+C:\Users\hoang\source\repos\Sack\Sack\obj\Debug\netcoreapp2.1\Sack.pdb
