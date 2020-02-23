@@ -40,5 +40,30 @@ namespace Sack.Controllers
             }
             return result;
         }
+
+        [HttpGet("{id}")]
+        public ActionResult<UserOutput> GetUserById(int id)
+        {
+            UserOutput result = new UserOutput();
+            using (var sqlConnection = new SqlConnection(_connectionString))
+            {
+
+                User x = sqlConnection.Query<User>("Select * from dbo.users where id ="+id).ToList().FirstOrDefault();
+
+                
+                    UserOutput a = new UserOutput();
+                    a.id = x.id;
+                    a.name = x.name;
+                    List<DateTime> dates = sqlConnection.Query<DateTime>("Select time from dbo.userTimeMap where id = " + a.id).ToList();
+                    List<string> illness = sqlConnection.Query<string>("Select illnessId from dbo.userIllnessMap where userId =" + a.id).ToList();
+                    a.illnesses = illness;
+                    a.timeAvailable = dates;
+                    return a;
+                
+
+
+            }
+            return result;
+        }
     }
 }
